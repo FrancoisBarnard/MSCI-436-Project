@@ -60,7 +60,11 @@ def main():
                 st.subheader(f"{idx + 1}: {service.capitalize()}")
 
             with st.expander("Advanced details"):
+                st.markdown(
+                    "These details displays the count of movies or tv shows that a streaming service has from the top 10 recommendations.")
                 final
+                st.markdown(
+                    "Note: It is possible for the sum of the scores to be greater than 10 as two or more services could have the recommendation on their platform.")
 
 
 def process_data():
