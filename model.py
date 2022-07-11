@@ -42,7 +42,7 @@ def main():
     # Selectable dropdown for th user
     with st.spinner("Processing..."):
         selected_title = st.selectbox(
-            "Type or manually select the move or TV show from the dropdown", title_list)
+            "Type or manually select the movie or TV show from the dropdown", title_list)
 
     # Create a button for the user to get the recommendation
     if st.button("Show Recommendation"):
